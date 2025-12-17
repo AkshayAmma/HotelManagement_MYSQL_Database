@@ -37,31 +37,35 @@ A simple Java-based **Hotel Management System** to manage rooms, customers, and 
 ## Project Structure
 
 
-HotelManagement/
-│
+HotelManagement
 ├─ controller/
 │   ├─ CustomerController.java
 │   ├─ RoomController.java
-│
+
+
 ├─ model/
 │   ├─ Customer.java
 │   ├─ Room.java
 │   ├─ Booking.java
-│
+
+
 ├─ repository/
 │   ├─ CustomerRepository.java
 │   ├─ RoomRepository.java
 │   ├─ BookingRepository.java
-│
+
+
 ├─ service/
 │   ├─ CustomerService.java
 │   ├─ RoomService.java
 │   ├─ BookingService.java
-│
+
+
 ├─ util/
 │   ├─ DatabaseUtil.java
 │   ├─ InputUtil.java
-│
+
+
 └─ Main.java
 
 ---
